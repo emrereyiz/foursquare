@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Valetta Challenge</title>
+	<meta charset="UTF-8">
+	<meta content="Platingames" name="description">
+	<meta content="Valetta, Foursquare API, Jquery, NPM" name="keywords">
+	<meta content="Emre Köklü" name="author">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"><!-- Stylesheet -->
+	<link href="_assets/css/core/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="_assets/css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!-- background image -->
+	<div id="valletta"></div><!-- container -->
+	<div class="container">
+		<!-- header role for accessibility -->
+		<header role="banner">
+			<!-- logo -->
+			<img alt="Foursquare Logo" role="logo" src="_assets/img/logo.png">
+			<h2>Foursquare API Search Category for <span></span></h2>
+		</header>
+		<article>
+			<div class="container">
+				<div class="row">
+					<!-- sidebar start -->
+					<aside class="col-3" id="sidebar"></aside>
+					<section class="col-9">
+						<div class="row" id="content">
+							<!-- chart start -->
+							<div id="chart"></div><!-- map start -->
+							<div id="map"></div><!-- right-content start -->
+							<div class="card-columns" id="right-content"></div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</article>
+	</div>
+	<script src="_assets/js/main.js" type="text/javascript">
+	</script> 
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCah53nSgpXREmP3KnCswF6MipaWZvEIXA">
+	</script>
+</body>
+</html>

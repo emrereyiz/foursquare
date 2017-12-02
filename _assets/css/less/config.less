@@ -1,0 +1,26 @@
+@color_white: #fff;
+@color_gray: #494949;
+@color_gray_light: #cacaca;
+@color_blue:#0732a2;
+@color_purple:#f94877;
+
+
+
+.transition(@param) {
+	-webkit-transition: @param ease;
+	-moz-transition: @param ease;
+	-ms-transition: @param ease;
+	-o-transition: @param ease;
+	transition: @param ease;
+}
+.borderradius(@param){
+	border-radius: @param;
+	-moz-border-radius: @param;
+	-webkit-border-radius: @param;
+}
+
+.boxsizing(@param){
+	-webkit-box-sizing: @param;
+	-moz-box-sizing: @param;
+	box-sizing: @param;
+}
