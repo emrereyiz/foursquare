@@ -5,7 +5,7 @@ const siteObject = {
         clientSecret: "4NFTT4EMEK0O3VKJOBIBX5ANSVUCFT2NHYGSMTSCNOSKJARA",
         latitude: "41.0820188",
         longtude: "28.912091999999998",
-        date: "20171130",
+        date: "20171203",
         city: 'Valletta',
         query: null,
         method: {
